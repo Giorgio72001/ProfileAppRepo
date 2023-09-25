@@ -1,0 +1,30 @@
+
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "5nodsgw8dHRCFYm7OKelwY79IS92": {
+      "type": "object",
+      "properties": {
+        "image": { "type": "string", "format": "uri" },
+        "name": { "type": "string" },
+        "birthday": { "type": "string", "format": "date" },
+        "height": { "type": "string" },
+        "weight": { "type": "string" }
+      },
+      "required": ["image", "name"]
+    },
+    "OjSzyUXayUgcH8Ql5HLLjNoIl0G2": {
+      "type": "object",
+      "properties": {
+        "image": { "type": "string", "format": "uri" },
+        "name": { "type": "string" },
+        "highScore": { "type": "integer" },
+        "birthday": { "type": "string", "format": "date" },
+        "height": { "type": "string" },
+        "weight": { "type": "string" }
+      },
+      "required": ["image", "name"]
+    }
+  }
+}
