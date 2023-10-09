@@ -76,3 +76,6 @@
       c. If Sign Out:
          1. Clear user_data.
          2. Return to the welcome screen.
+
+   Test banner will be displayed at the bottom of sign in/up/out screen.
+
