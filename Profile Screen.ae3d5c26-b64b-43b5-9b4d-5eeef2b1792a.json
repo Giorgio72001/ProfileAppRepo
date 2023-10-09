@@ -62,13 +62,13 @@
             "properties": {
                 "Picture": "giogram-logo.png",
                 "resizeMode": "stretch",
-                "Height": 98,
-                "Width": 115,
-                "Visible": false,
+                "Height": 74,
+                "Width": 116,
+                "Visible": true,
                 "X": 127,
-                "Y": 124,
+                "Y": 161,
                 "RelativeX": 127,
-                "RelativeY": 124,
+                "RelativeY": 161,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -90,12 +90,12 @@
                     "position": "absolute",
                     "left": "5.377775065104166%",
                     "top": "56.815348429300975%",
-                    "display": "none"
+                    "display": "flex"
                 },
                 "capInsets": {},
                 "ParentId": "c53693cf-eb1f-444d-8aa1-eb059cd46829",
                 "position": "absolute",
-                "edgeOffsets": 124
+                "edgeOffsets": 161
             },
             "children": [],
             "id": "e809cf92-5cec-4e68-b17d-8f25849f4dd8",
