@@ -1,0 +1,78 @@
+1. Initialize variables and data structures to store user information.
+   user_data = {
+       email: "",
+       password: "",
+       name: "",
+       profile_image: null,
+       birthday: "",
+       height: "",
+       weight: ""
+   }
+
+2. Display the welcome screen with options:
+   a. Sign In
+   b. Sign Up
+
+3. User selects an option:
+   a. If Sign In:
+      1. Prompt the user to enter their email and password.
+      2. Verify the email and password against the stored user_data.
+      3. If valid, proceed to the profile screen (Step 4).
+      4. If invalid, display an error message and allow the user to retry or go back to the welcome screen.
+
+   b. If Sign Up:
+      1. Prompt the user to enter a unique email and a password.
+      2. Verify that the email is not already used.
+      3. If valid, proceed to the profile screen (Step 4).
+      4. If invalid, display an error message and allow the user to retry or go back to the welcome screen.
+
+4. Profile Screen:
+   1. Display the user's name (if available).
+   2. Display the user's profile image (if available).
+   3. Display options:
+      a. Edit Name
+      b. Choose Image
+      c. More Personal Info
+      d. Sign Out
+
+   4. User selects an option:
+      a. If Edit Name:
+         1. Prompt the user to enter a non-blank name.
+         2. Update the user_data with the new name.
+         3. Display a confirmation message.
+
+      b. If Choose Image:
+         1. Allow the user to pick an image from the photo library or take a picture.
+         2. Update the user_data with the selected image.
+         3. Display a confirmation message.
+
+      c. If More Personal Info:
+         1. Proceed to the personal info screen (Step 5).
+
+      d. If Sign Out:
+         1. Proceed to the Sign Out screen (Step 6).
+
+5. Personal Info Screen:
+   1. Prompt the user to enter their birthday (MM/DD), height (FT'IN), and weight (lbs).
+   2. Verify that none of these fields are blank.
+   3. Update the user_data with the provided information.
+   4. Display a confirmation message.
+
+6. Sign Out Screen:
+   1. Display options:
+      a. Go back to the previous screen (Profile Screen or Personal Info Screen).
+      b. Reset Password
+      c. Sign Out and return to the welcome screen.
+
+   2. User selects an option:
+      a. If Go back:
+         1. Return to the previous screen.
+
+      b. If Reset Password:
+         1. Prompt the user to enter a new password.
+         2. Update the user_data with the new password.
+         3. Display a confirmation message.
+
+      c. If Sign Out:
+         1. Clear user_data.
+         2. Return to the welcome screen.
